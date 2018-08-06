@@ -7,5 +7,6 @@
 <p><%= @song.artist_id %></p>
 <a href="/artists/#{@song.artist_id}"><%= @song.artist.name %></a>
 
-<h1>My song genre</h1>
+<h1>My Genre</h1>
 <p><%= @song.genre_id %></p>
+<a href="/artists/#{@song.genre_id}"><%= @song.genre.name %></a>
